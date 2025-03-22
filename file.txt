@@ -1,0 +1,295 @@
+.part-4{
+  width:100%;
+  // padding:4rem 3rem;
+  display: flex;
+  height: 100%;
+    button {
+          width: 8rem;
+          height: 3rem;
+          margin-left: 60rem;
+          display: flex;
+          margin-top: 8rem;
+          padding-bottom: 4rem;
+      display: flex;  
+      flex-direction: column;
+      background-color:#0e0e0e;
+      border: none;
+      // padding-top: 2rem;
+      .arrow-1 {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        box-shadow: 0 0 2px wheat;
+        display: flex;
+        justify-content: center;
+        margin-top: 0.7rem;
+        margin-left: 1.4rem;
+        margin-top: 2rem;
+      }
+      img {
+        width: 28px;
+        height: auto;
+      }
+      span {
+        padding-left: 1rem;
+        color:#dac5a7;
+        font-size: large;
+        padding-bottom: 2rem;
+      }
+  }
+  h1{
+    padding-top: 8rem;
+
+  }
+}
+        <img src="/Arik - Portfolio Framer Template/arik-assests (2).jpg" alt="" class="img-1">
+            <img src="/Arik - Portfolio Framer Template/arik-assests (3).jpg" alt="" class="img-2">
+        <img src="/Arik - Portfolio Framer Template/arik-assests (4).jpg" alt="" class="img-3">
+            <img src="/Arik - Portfolio Framer Template/arik-assests (1).jpg" alt="" class="img-4">
+             <section class="part-6">
+        <div class="container">
+          <div class="small-container-1">
+            <div class="arrow">
+              <img src="/Arik - Portfolio Framer Template/down.svg" alt="" />
+            </div>
+          <div class="box line-1"></div>
+          <div class="circle">01</div>
+          <div class=" box line-2"></div>
+        </div>
+          <div class="box box-2">
+            <button>2 HOURS</button>
+            <h4>DO WE MATCH?</h4>
+            <h2>DISCOVERY CALL</h2>
+            <p>
+              Before we start,   we <br />determine if and how I can <br /> help
+              you. What are your <br> requirements for your new <br> website? Why do you need <br> a new website? What <br> goals do you have,and <br> What problems can we <br> solve with a new website?
+            </p>
+            <ul>
+              <li>We get to know each <br> other better.</li>
+              <li>Determine how I can <br> best assist you.</li>
+              <li>Understand the goals <br> you have for your <br> website.</li>
+            </ul>
+          </div>
+          
+          
+        </div>
+      </section>
+      .part-6 {
+  width: 100%;
+  height: fit-content;
+  .container {
+    width: 100%;
+    display: flex;
+    gap: 0.6rem;
+    .small-container-1 {
+      width: fit-content;
+      background-color: #0e0e0e;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin-right: 0.2rem;
+      .arrow {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        box-shadow: 0 0 2px wheat;
+        padding-top: 1.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        margin-right: 0.2rem;
+        img {
+          width: 28px;
+          height: auto;
+          padding-bottom: 2.5rem;
+          padding-top: 1rem;
+        }
+      }
+      .line-1 {
+        width: 0.2px;
+        height: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: wheat;
+        margin-left: 1rem;
+      }
+      .circle {
+        width: 2rem;
+        height: 2rem;
+        background-color: #0e0e0e;
+        border-radius: 50%;
+        box-shadow: 0 0 2px wheat;
+        padding-left: 0.5rem;
+        padding-top: 0.2rem;
+        font-size: 1rem;
+        color: wheat;
+      }
+      .line-2 {
+        width: 0.2px;
+        height: 35rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: wheat;
+        margin-left: 1rem;
+      }
+    }
+    .box-2 {
+      width: 85%;
+      height: fit-content;
+      background-color: rgba(24, 23, 22, 1);
+      margin-top: 5rem;
+      border-radius: 5px;
+      flex-shrink: 0;
+      button {
+        width: 6rem;
+        height: 2.1rem;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        font-weight: 100;
+        font-size: 1.2rem;
+        color: wheat;
+        background-color: #34302c;
+        padding: 0 0.5rem;
+        border-radius: 4px;
+        border: none;
+      }
+      h4 {
+        font-weight: 100;
+        color: #e7bc7f;
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+      }
+      h2 {
+        font-weight: 100;
+        padding: 0.2rem 1.5rem;
+        color: wheat;
+      }
+      p {
+        padding: 1rem 1.6rem;
+        font-weight: 100;
+        font-size: 1rem;
+        color: #a69680;
+        line-height: 1.9rem;
+      }
+      ul {
+        li {
+          padding: 0.2rem 0.5rem;
+          font-weight: 100;
+          font-size: 1rem;
+          color: wheat;
+          line-height: 1.8rem;
+          margin-left: 3rem;
+        }
+      }
+    }
+  }
+}
+<section class="part-7">
+        <div class="container">
+        <div class="small-container">
+          <div class="circle">02</div>
+          <div class=" box line-2"></div>
+        </div>
+          <div class= " box box-3">
+            <button>2 WEEKS</button>
+            <h4>WE NEED A PLAN</h4>
+            <h2>CONCEPT & <br> STRATEGY</h2>
+            <p>Together, we develop a strategy that successfully <br>combines your goals with <br>the needs of your targets <br>audience. Based on this <br>concept,I create the first <br>wire freames and an <br>interactive prototype.This <br>provides us with a very <br>good impression of the <br>website and the user <br>interface.</p>
+            <ul>
+              <li>UX Design.</li>
+              <li>Wireframes.</li>
+              <li>Interactive Prototype.</li>
+            </ul>
+          </div>
+        
+        </div>
+      </section>
+      .part-7 {
+  width: 100%;
+  height: fit-content;
+  .container {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    .small-container {
+      width: fit-content;
+      background-color: #0e0e0e;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      margin-right: 0.2rem;
+
+      .circle {
+        width: 2rem;
+        height: 2rem;
+        background-color: #0e0e0e;
+        border-radius: 50%;
+        box-shadow: 0 0 2px wheat;
+        padding-left: 0.5rem;
+        padding-top: 0.2rem;
+        font-size: 1rem;
+        color: wheat;
+        margin-top: 1rem;
+      }
+      .line-2 {
+        width: 0.2px;
+        height: 43rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        background-color: wheat;
+        margin-left: 1rem;
+      }
+    }
+    .box-3 {
+      width: 85%;
+      height: fit-content;
+      background-color: rgba(24, 23, 22, 1);
+      margin-top: 5rem;
+      border-radius: 5px;
+      flex-shrink: 0;
+      button {
+        width: 6rem;
+        height: 2.1rem;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        font-weight: 100;
+        font-size: 1.2rem;
+        color: wheat;
+        background-color: #34302c;
+        padding: 0 0.5rem;
+        border-radius: 4px;
+        border: none;
+      }
+      h4 {
+        font-weight: 100;
+        color: #e7bc7f;
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+      }
+      h2 {
+        font-weight: 100;
+        padding: 0.2rem 1.5rem;
+        color: wheat;
+      }
+      p {
+        padding: 1rem 1.6rem;
+        font-weight: 100;
+        font-size: 1rem;
+        color: #a69680;
+        line-height: 1.9rem;
+      }
+      ul {
+        li {
+          padding: 0.2rem 0.5rem;
+          font-weight: 100;
+          font-size: 1rem;
+          color: wheat;
+          line-height: 1.8rem;
+          margin-left: 3rem;
+        }
+      }
+    }
+  }
+}
+
